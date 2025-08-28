@@ -28,7 +28,7 @@ dotenv.config();
 //   origin: ['https://hrms-project-frontend.onrender.com', 'http://localhost:5173'],
 // }));
 app.use(cors({
-  origin:  'https://hrms-project-frontend.onrender.com',
+  origin:  'https://zippy-baklava-72bff9.netlify.app',
   methods: ['GET', 'POST','PUT','DELETE'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization','cache-control']
